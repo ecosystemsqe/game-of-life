@@ -32,7 +32,8 @@
               <configuration>
                   <scanIntervalSeconds>10</scanIntervalSeconds>
                   <httpConnector>
-                      <port>${jetty.port}</port>
+                      <port>9191</port>
+                      <host>localhost</host>
                       <idleTimeout>60000</idleTimeout>
                   </httpConnector>
                   <stopKey>foo</stopKey>
